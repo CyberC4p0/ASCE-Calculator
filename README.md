@@ -12,4 +12,9 @@ ASCE Calculator
 27.625 <= 45.5  OK
 ```
 
+Required Modules:
+```
+pip install colorama
+```
+
 Disclaimer: Not connected/related in any way to the American Society of Civil Engineers
