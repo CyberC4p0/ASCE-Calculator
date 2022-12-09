@@ -1,7 +1,7 @@
 # ASCE-Calculator
 A calculator to automate various structural calculations
 
-SAMPLE OUTPUT:
+**SAMPLE OUTPUT:**
 
 ```
 ASCE Calculator
