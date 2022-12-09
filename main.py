@@ -2,8 +2,8 @@ from colorama import init, Fore, Back, Style
 
 init(autoreset=True)
 
-green_OK = Fore.GREEN + " OK"
-red_FAIL = Fore.RED + " FAIL"
+OK = Fore.GREEN + " OK"
+FAIL = Fore.RED + " FAIL"
 
 print("ASCE Calculator\n")
 
@@ -24,9 +24,9 @@ def main():
     for zone in zones:
         Mr = round((zone * aerodynamic_multiplier) - Mg, 3)
         if Mr <= Mf:
-            print(Mr, "<=", Mf, green_OK)
+            print(Mr, "<=", Mf, OK)
 
         else:
-            print(Mr, "<=", Mf, red_FAIL)
+            print(Mr, "<=", Mf, FAIL)
 
 main()
