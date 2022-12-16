@@ -28,6 +28,7 @@ Zone 3r: 27.31 <= 45.5  OK
 Required Modules:
 ```
 pip install colorama
+pip install customtkinter
 ```
 
 Disclaimer: Not connected/related in any way to the American Society of Civil Engineers
