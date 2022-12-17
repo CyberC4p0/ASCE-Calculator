@@ -29,6 +29,7 @@ Required Modules:
 ```
 pip install colorama
 pip install customtkinter
+pip install reportlab
 ```
 
 Disclaimer: Not connected/related in any way to the American Society of Civil Engineers
